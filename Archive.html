@@ -7,8 +7,18 @@
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
 <title>Archive</title>
   <style>
-       .georgia {
+       /* 引入思源宋体 */
+       @font-face {
+            font-family: 'Siyuan';
+            src: url('file/siyuan.otf') format('opentype');
+        }
+        /* 全局设置英文字体为Georgia */
+        body {
             font-family: 'Georgia', serif;
+        }
+        /* 针对中文指定思源宋体 */
+        body :lang(zh) {
+            font-family: 'Siyuan', serif;
         }
     </style>
 </head>
