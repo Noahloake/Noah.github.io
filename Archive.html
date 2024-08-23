@@ -5,6 +5,28 @@
 <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
+  /* 使用@font-face加载思源宋体 */
+@font-face {
+    font-family: 'Source Han Serif';
+    font-weight: 400;
+    font-style: normal;
+    src: url('路径/SourceHanSerif-Regular.otf') format('opentype');
+}
+
+/* 选择器设置中文字体为思源宋体 */
+body {
+    font-family: system-ui, sans-serif;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, span, div, li, a, input, textarea {
+    font-family: 'Source Han Serif', system-ui, sans-serif;
+}
+
+/* 仅对中文字符设置字体 */
+body *:lang(zh), body *:lang(zh-Hans), body *:lang(zh-Hant) {
+    font-family: 'Source Han Serif', system-ui, sans-serif;
+}
+
 <title>Archives</title>
 </head>
 <body>
