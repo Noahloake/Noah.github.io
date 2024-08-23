@@ -13,23 +13,6 @@ body {
 	margin: 0;
 }
 
-/* 引入思源宋体 */
-@font-face {
-    font-family: 'Siyuan';
-    src: url('file/Ming.ttf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* 针对中文字符应用思源宋体 */
-body {
-    font-family: 'Georgia', serif; /* 英文字体为Georgia */
-}
-
-body :lang(zh), body :lang(zh-CN), p, li, h1, h2, h3, a, strong, em {
-    font-family: 'Siyuan', 'Georgia', serif; /* 中文字体为思源宋体，英文为Georgia */
-}
-
 #layout-menu {
 	background: #f6f6f6;
 	border: 1px solid #dddddd;
