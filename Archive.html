@@ -7,36 +7,8 @@
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
 <title>Archive</title>
   <style>
-       /* 引入思源宋体 */
-       @font-face {
-            font-family: 'Siyuan';
-            src: url('file/Ming.ttf') format('opentype');
-        }
-        
-        /* 全局设置英文字体为Georgia */
-        body {
+       .georgia {
             font-family: 'Georgia', serif;
-        }
-        
-        /* 针对中文字符（Unicode范围）指定思源宋体 */
-        body {
-            font-family: 'Georgia', serif;
-        }
-        
-        /* 只为中文字符应用思源宋体 */
-        body *:lang(zh), body *:lang(zh-CN) {
-            font-family: 'Siyuan', serif;
-        }
-        
-        /* 备用方法：直接指定常用中文范围（这是一种保证方法，但可能导致混合内容的样式不一致） */
-        body p, body li, body h1, body h2, body a {
-            font-family: 'Georgia', serif;
-        }
-        body p:lang(zh), body li:lang(zh), body h1:lang(zh), body h2:lang(zh), body a:lang(zh) {
-            font-family: 'Siyuan', serif;
-        }
-        body p:lang(zh-CN), body li:lang(zh-CN), body h1:lang(zh-CN), body h2:lang(zh-CN), body a:lang(zh-CN) {
-            font-family: 'Siyuan', serif;
         }
     </style>
 </head>
