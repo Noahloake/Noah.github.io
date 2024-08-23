@@ -16,7 +16,7 @@ body {
 /* 引入思源宋体 */
 @font-face {
     font-family: 'Siyuan';
-    src: url('file/siyuan.otf') format('opentype');
+    src: url('file/Ming.ttf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
